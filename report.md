@@ -23,7 +23,8 @@
   -  **holder** is being returned for this method    
   
  
- ## PART 2 
+## PART 2 
+
  **Failure Inducing Input**
  ```
 @Test
@@ -78,15 +79,13 @@ assertEquals(5,result,0.001 );
     return sum / (arr.length - countLowest);
   }
   ```
-  **THE FIX**
+**THE FIX**
     -The fix takes in account of when there are more than one lowest number appear in array
     -A new variable is created to track the number of times the lowest number appear to make sure the sum is dividing the correct number of elements
     
    
- ## PART 3
-  In week 2 and week 3, I learned about the components of a URL which I uses in daily life but didn't have much knowledge about. I also learned how to build a self-made 
- server using Java. I knew how to read in a URL to manipulate the words that are displayed on the website. One other cool thing I learned is how to fork a repository 
- to my own and push changes on my own clone version of the repository.  :smiley:
+## PART 3
+  In week 2 and week 3, I learned about the components of a URL which I uses in daily life but didn't have much knowledge about. I also learned how to build a self-made server using Java. I knew how to read in a URL to manipulate the words that are displayed on the website. One other cool thing I learned is how to fork a repository to my own and push changes on my own clone version of the repository.  :smiley:
     
  
 
